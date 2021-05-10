@@ -8,13 +8,7 @@ import pandas as pd
 import json
 
 dir_docx="e:/workspace/python/FONDEF/MamAI/src/ejemplos_aleatorios"
-
 archives = os.listdir(dir_docx)
-# print(archives)
-
-#with os.scandir(dir_docx) as ficheros:
-#   ficheros = [fichero.name for fichero in ficheros if fichero.is_file()]
-#print(ficheros)
 str_token =':'
 hallazgos_text = ''
 impresion_text = ''
